@@ -13,7 +13,43 @@
                 "version": 1
             },
             {
+                "id": "musicPlayer",
+                "version": 1
+            },
+            {
+                "id": "audioMute",
+                "version": 1
+            },
+            {
+                "id": "audioVolume",
+                "version": 1
+            },
+            {
+                "id": "audioNotification",
+                "version": 1
+            },
+            {
+                "id": "audioTrackData",
+                "version": 1
+            },
+            {
+                "id": "notification",
+                "version": 1
+            },
+            {
+                "id": "refresh",
+                "version": 1
+            },
+            {
+                "id": "sensor",
+                "version": 1
+            },
+            {
                 "id": "aloneflower52999.echoSpeaksInfo",
+                "version": 1
+            },
+            {
+                "id": "aloneflower52999.echoSpeaksMedia",
                 "version": 1
             },
             {
@@ -31,20 +67,12 @@
             {
                 "id": "aloneflower52999.echoSpeaksSpeech2",
                 "version": 1
-            },
-            {
-                "id": "audioMute",
-                "version": 1
-            },
-            {
-                "id": "audioVolume",
-                "version": 1
             }
         ],
         "categories": []
     }],
     "metadata": {
-        "vid": "2085d934-2629-30bc-9305-74917f7bb739",
+        "vid": "d229b45e-d349-303f-8d27-3f933b52d1ca",
         "deviceType": "Others",
         "mnmn": "SmartThingsCommunity",
         "ocfDeviceType": "oic.wk.d",
