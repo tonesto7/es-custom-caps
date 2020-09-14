@@ -72,7 +72,7 @@
         "categories": []
     }],
     "metadata": {
-        "vid": "d229b45e-d349-303f-8d27-3f933b52d1ca",
+        "vid": "2085d934-2629-30bc-9305-74917f7bb739",
         "deviceType": "Others",
         "mnmn": "SmartThingsCommunity",
         "ocfDeviceType": "oic.wk.d",
@@ -81,7 +81,7 @@
         "mnid": "fABk",
         "mnId": "fABk"
     },
-    "status": "PUBLISHED",
+    "status": "DEVELOPMENT",
     "owner": {
         "ownerType": "USER",
         "ownerId": "87c21820-daed-4be6-8f5f-8ad10c1cc520"
