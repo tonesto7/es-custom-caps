@@ -1,0 +1,45 @@
+--------------------
+Device Capabilities
+--------------------
+
+Output JSON for Capability:
+./st.cmd capabilities aloneflower52999.echoSpeaksSpeech1 1 -j -o capability-echoSpeaksSpeech1.json
+
+Update Capability from JSON:
+./st.cmd capabilities:update aloneflower52999.echoSpeaksSpeech1 1 -j -i capability-echoSpeaksSpeech1.json
+
+------------------------
+Capability Presentation
+------------------------
+
+Create New Capability Presentation from JSON:
+./st.cmd capabilities:presentation:create aloneflower52999.echoSpeaksSpeech2 1 -j -i presentation-echoSpeaksSpeech2.json
+
+Output Existing Capability Presentation as JSON:
+./st.cmd capabilities:presentation aloneflower52999.echoSpeaksSpeech1 -j -o presentation-echoSpeaksSpeech1.json
+
+Update Existing Capability Presentation from JSON:
+./st.cmd capabilities:presentation:update aloneflower52999.echoSpeaksSpeech1 1 -j -i presentation-echoSpeaksSpeech1.json
+
+----------------------------
+Device Presentation Configs
+----------------------------
+
+Output Existing Device Config as JSON:
+./st.cmd presentation:device-config 1f025301-d08e-3b63-811a-f97156d39f1d -j -o deviceConfig.json
+
+Create New Device Config from JSON:
+./st.cmd presentation:device-config:create 1f025301-d08e-3b63-811a-f97156d39f1d -j -i deviceConfig.json
+
+----------------
+Device Profiles
+----------------
+
+View Device Profiles:
+./st.cmd deviceprofiles
+
+Output Device Profiles as JSON:
+./st.cmd deviceprofiles 498709ab-f1bc-4fdb-ac19-02aa680cae49 -j -o deviceProfile.json
+
+Update Existing Device Profiles from JSON:
+./st.cmd deviceprofiles:update 498709ab-f1bc-4fdb-ac19-02aa680cae49 -i deviceProfile.json

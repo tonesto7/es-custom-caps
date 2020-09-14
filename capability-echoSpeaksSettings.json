@@ -1,0 +1,203 @@
+{
+    "id": "aloneflower52999.echoSpeaksSettings",
+    "version": 1,
+    "status": "proposed",
+    "name": "Echo Speaks Settings",
+    "attributes": {
+        "btDeviceConnected": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "followUpMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "wifiNetwork": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "doNotDisturb": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "btDevicesPaired": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "wakeWords": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "alexaWakeWord": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "disconnectBluetooth": {
+            "name": "disconnectBluetooth",
+            "arguments": []
+        },
+        "executeSequenceCommand": {
+            "name": "executeSequenceCommand",
+            "arguments": [
+                {
+                    "name": "seqId",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "doNotDisturbOff": {
+            "name": "doNotDisturbOff",
+            "arguments": []
+        },
+        "connectBluetooth": {
+            "name": "connectBluetooth",
+            "arguments": [
+                {
+                    "name": "deviceName",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "doNotDisturbOn": {
+            "name": "doNotDisturbOn",
+            "arguments": []
+        },
+        "getBluetoothDevices": {
+            "name": "getBluetoothDevices",
+            "arguments": []
+        },
+        "executeRoutineId": {
+            "name": "executeRoutineId",
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "setWakeWord": {
+            "name": "setWakeWord",
+            "arguments": [
+                {
+                    "name": "wakeWord",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "renameDevice": {
+            "name": "renameDevice",
+            "arguments": [
+                {
+                    "name": "newName",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "removeBluetooth": {
+            "name": "removeBluetooth",
+            "arguments": [
+                {
+                    "name": "deviceName",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
+}

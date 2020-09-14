@@ -1,0 +1,226 @@
+{
+    "type": "profile",
+    "iconUrl": null,
+    "dashboard": {
+        "states": [{
+            "component": "main",
+            "capability": "mediaPlayback",
+            "version": 1
+        }],
+        "actions": [{
+            "component": "main",
+            "capability": "mediaPlayback",
+            "version": 1
+        }]
+    },
+    "detailView": [{
+            "component": "main",
+            "capability": "mediaPlayback",
+            "version": 1,
+            "values": [],
+            "patch": []
+        },
+        {
+            "component": "main",
+            "capability": "aloneflower52999.echoSpeaksInfo",
+            "version": 1,
+            "values": [],
+            "patch": []
+        },
+        {
+            "component": "main",
+            "capability": "aloneflower52999.echoSpeaksMedia",
+            "version": 1,
+            "values": [],
+            "patch": []
+        },
+        {
+            "component": "main",
+            "capability": "aloneflower52999.echoSpeaksNotifications",
+            "version": 1,
+            "values": [],
+            "patch": []
+        },
+        {
+            "component": "main",
+            "capability": "aloneflower52999.echoSpeaksSettings",
+            "version": 1,
+            "values": [],
+            "patch": []
+        },
+        {
+            "component": "main",
+            "capability": "aloneflower52999.echoSpeaksSpeech1",
+            "version": 1,
+            "values": [],
+            "patch": []
+        },
+        {
+            "component": "main",
+            "capability": "aloneflower52999.echoSpeaksSpeech2",
+            "version": 1,
+            "values": [],
+            "patch": []
+        },
+        {
+            "component": "main",
+            "capability": "audioMute",
+            "version": 1,
+            "values": [],
+            "patch": []
+        },
+        {
+            "component": "main",
+            "capability": "audioVolume",
+            "version": 1,
+            "values": [],
+            "patch": []
+        }
+    ],
+    "automation": {
+        "conditions": [{
+                "component": "main",
+                "capability": "healthCheck",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "mediaPlayback",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "aloneflower52999.echoSpeaksInfo",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "aloneflower52999.echoSpeaksMedia",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "aloneflower52999.echoSpeaksNotifications",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "aloneflower52999.echoSpeaksSettings",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "aloneflower52999.echoSpeaksSpeech1",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "aloneflower52999.echoSpeaksSpeech2",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "audioMute",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "audioVolume",
+                "version": 1,
+                "values": [],
+                "patch": []
+            }
+        ],
+        "actions": [{
+                "component": "main",
+                "capability": "healthCheck",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "mediaPlayback",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "aloneflower52999.echoSpeaksInfo",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "aloneflower52999.echoSpeaksMedia",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "aloneflower52999.echoSpeaksNotifications",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "aloneflower52999.echoSpeaksSettings",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "aloneflower52999.echoSpeaksSpeech1",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "aloneflower52999.echoSpeaksSpeech2",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "audioMute",
+                "version": 1,
+                "values": [],
+                "patch": []
+            },
+            {
+                "component": "main",
+                "capability": "audioVolume",
+                "version": 1,
+                "values": [],
+                "patch": []
+            }
+        ]
+    },
+    "vid": "2085d934-2629-30bc-9305-74917f7bb739",
+    "mnmn": "SmartThingsCommunity"
+}

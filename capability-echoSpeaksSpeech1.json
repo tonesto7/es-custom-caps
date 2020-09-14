@@ -1,0 +1,385 @@
+{
+    "id": "aloneflower52999.echoSpeaksSpeech1",
+    "version": 1,
+    "status": "proposed",
+    "name": "Echo Speaks Speech 1",
+    "attributes": {
+        "lastSpokenToTime": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "number"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "wasLastSpokenToDevice": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "lastVoiceActivity": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "lastSpeakCmd": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "lastAnnouncement": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "playJoke": {
+            "name": "playJoke",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playFlashBrief": {
+            "name": "playFlashBrief",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playFunFact": {
+            "name": "playFunFact",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "sayBirthday": {
+            "name": "sayBirthday",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playSingASong": {
+            "name": "playSingASong",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playTraffic": {
+            "name": "playTraffic",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playWeather": {
+            "name": "playWeather",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "resetQueue": {
+            "name": "resetQueue",
+            "arguments": []
+        },
+        "sayGoodNight": {
+            "name": "sayGoodNight",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "sayGoodbye": {
+            "name": "sayGoodbye",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playSoundByName": {
+            "name": "playSoundByName",
+            "arguments": [
+                {
+                    "name": "soundName",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playTellStory": {
+            "name": "playTellStory",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playGoodNews": {
+            "name": "playGoodNews",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "sayGoodMorning": {
+            "name": "sayGoodMorning",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "replayText": {
+            "name": "replayText",
+            "arguments": []
+        },
+        "sayCompliment": {
+            "name": "sayCompliment",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "sayWelcomeHome": {
+            "name": "sayWelcomeHome",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        }
+    }
+}

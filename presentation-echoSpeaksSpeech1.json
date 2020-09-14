@@ -1,0 +1,147 @@
+{
+    "id": "aloneflower52999.echoSpeaksSpeech1",
+    "version": 1,
+    "dashboard": {
+        "states": [],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [{
+            "label": "Last Announcement Text",
+            "displayType": "state",
+            "state": {
+                "label": "{{lastAnnouncement.value}}"
+            }
+        },
+        {
+            "label": "Last Speech Text",
+            "displayType": "state",
+            "state": {
+                "label": "{{lastSpeakCmd.value}}"
+            }
+        },
+        {
+            "label": "Last Spoken To Time",
+            "displayType": "state",
+            "state": {
+                "label": "{{lastSpokenToTime.value}}"
+            }
+        },
+        {
+            "label": "Tell a Joke",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "playJoke"
+            }
+        },
+        {
+            "label": "Flash Briefing",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "playFlashBrief"
+            }
+        },
+        {
+            "label": "Say Fun Fact",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "playFunFact"
+            }
+        },
+        {
+            "label": "Say Happy Birthday",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "sayBirthday"
+            }
+        },
+        {
+            "label": "Sing-a-Song",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "playSingASong"
+            }
+        },
+        {
+            "label": "Play Traffic Report",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "playTraffic"
+            }
+        },
+        {
+            "label": "Play Weather Report",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "playWeather"
+            }
+        },
+        {
+            "label": "Say Good Night",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "sayGoodNight"
+            }
+        },
+        {
+            "label": "Say Good Morning",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "sayGoodMorning"
+            }
+        },
+        {
+            "label": "Say Goodbye",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "sayGoodbye"
+            }
+        },
+        {
+            "label": "Say Compliment",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "sayCompliment"
+            }
+        },
+        {
+            "label": "Say Welcome Home",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "sayWelcomeHome"
+            }
+        },
+        {
+            "label": "Tell a Story",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "playTellStory"
+            }
+        },
+        {
+            "label": "Play Good News",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "playGoodNews"
+            }
+        },
+        {
+            "label": "Replay Last Text",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "replayText"
+            }
+        },
+        {
+            "label": "Reset Speech Queue",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "resetQueue"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": []
+    }
+}

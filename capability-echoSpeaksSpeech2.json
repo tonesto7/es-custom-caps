@@ -1,0 +1,207 @@
+{
+    "id": "aloneflower52999.echoSpeaksSpeech2",
+    "version": 1,
+    "status": "proposed",
+    "name": "Echo Speaks Speech 2",
+    "attributes": {},
+    "commands": {
+        "sendAnnouncementToDevices": {
+            "name": "sendAnnouncementToDevices",
+            "arguments": [{
+                    "name": "msg",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "title",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "devIds",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playCalendarToday": {
+            "name": "playCalendarToday",
+            "arguments": [{
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playCalendarNext": {
+            "name": "playCalendarNext",
+            "arguments": [{
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playCalendarTomorrow": {
+            "name": "playCalendarTomorrow",
+            "arguments": [{
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "sendTestAnnouncementAll": {
+            "name": "sendTestAnnouncementAll",
+            "arguments": []
+        },
+        "sendTestAnnouncement": {
+            "name": "sendTestAnnouncement",
+            "arguments": []
+        },
+        "playAnnouncement": {
+            "name": "playAnnouncement",
+            "arguments": [{
+                    "name": "msg",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "title",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playAnnouncementAll": {
+            "name": "playAnnouncementAll",
+            "arguments": [{
+                    "name": "msg",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "title",
+                    "optional": true,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "setVolumeAndSpeak": {
+            "name": "setVolumeAndSpeak",
+            "arguments": [{
+                    "name": "volume",
+                    "optional": false,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "msg",
+                    "optional": false,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "setVolumeSpeakAndRestore": {
+            "name": "setVolumeSpeakAndRestore",
+            "arguments": [{
+                    "name": "volume",
+                    "optional": false,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "msg",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": false,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "speechTest": {
+            "name": "speechTest",
+            "arguments": []
+        }
+    }
+}

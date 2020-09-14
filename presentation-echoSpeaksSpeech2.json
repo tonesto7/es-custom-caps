@@ -1,0 +1,56 @@
+{
+    "id": "aloneflower52999.echoSpeaksSpeech2",
+    "version": 1,
+    "dashboard": {
+        "states": [],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [{
+            "label": "Todays Calendar Events",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "playCalendarToday"
+            }
+        },
+        {
+            "label": "Next Calendar Event",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "playCalendarNext"
+            }
+        },
+        {
+            "label": "Tomorrows Calendar Events",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "playCalendarTomorrow"
+            }
+        },
+        {
+            "label": "Send Announcement Test to Device",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "sendTestAnnouncement"
+            }
+        },
+        {
+            "label": "Send Announcement Test to All Devices",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "sendTestAnnouncementAll"
+            }
+        },
+        {
+            "label": "Perform a Speech Test",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "speechTest"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": []
+    }
+}

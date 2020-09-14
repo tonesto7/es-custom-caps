@@ -1,0 +1,305 @@
+{
+    "id": "aloneflower52999.echoSpeaksMedia",
+    "version": 1,
+    "status": "proposed",
+    "name": "Echo Speaks Media",
+    "attributes": {
+        "alexaPlaylists": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "trackImage": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "trackImageHtml": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "mediaSource": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "searchMusic": {
+            "name": "searchMusic",
+            "arguments": [
+                {
+                    "name": "searchPhrase",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "providerId",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "sleepSeconds",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "searchSpotify": {
+            "name": "searchSpotify",
+            "arguments": [
+                {
+                    "name": "searchPhrase",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "sleepSeconds",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "searchIheart": {
+            "name": "searchIheart",
+            "arguments": [
+                {
+                    "name": "searchPhrase",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "sleepSeconds",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "searchTuneIn": {
+            "name": "searchTuneIn",
+            "arguments": [
+                {
+                    "name": "searchPhrase",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "sleepSeconds",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "searchSiriusXm": {
+            "name": "searchSiriusXm",
+            "arguments": [
+                {
+                    "name": "searchPhrase",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "sleepSeconds",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "searchAppleMusic": {
+            "name": "searchAppleMusic",
+            "arguments": [
+                {
+                    "name": "searchPhrase",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "sleepSeconds",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "searchAmazonMusic": {
+            "name": "searchAmazonMusic",
+            "arguments": [
+                {
+                    "name": "searchPhrase",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "sleepSeconds",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "restoreLastVolume": {
+            "name": "restoreLastVolume",
+            "arguments": []
+        },
+        "volumeDown": {
+            "name": "volumeDown",
+            "arguments": []
+        },
+        "storeCurrentVolume": {
+            "name": "storeCurrentVolume",
+            "arguments": []
+        },
+        "stopAllDevices": {
+            "name": "stopAllDevices",
+            "arguments": []
+        },
+        "volumeUp": {
+            "name": "volumeUp",
+            "arguments": []
+        },
+        "searchPandora": {
+            "name": "searchPandora",
+            "arguments": [
+                {
+                    "name": "searchPhrase",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "sleepSeconds",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        }
+    }
+}

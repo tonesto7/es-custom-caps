@@ -1,0 +1,41 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [{
+        "label": "Alarm & Notification Volume",
+        "displayType": "slider",
+        "slider": {
+            "range": [0, 100],
+            "step": 1,
+            "command": "setAlarmVolume",
+            "value": "alarmVolume.value"
+        }
+    }],
+    "automation": {
+        "conditions": [{
+            "label": "Alarm & Notification Volume",
+            "displayType": "slider",
+            "slider": {
+                "range": [0, 100],
+                "step": 1,
+                "command": "setAlarmVolume",
+                "value": "alarmVolume.value"
+            }
+        }],
+        "actions": [{
+            "label": "Alarm & Notification Volume",
+            "displayType": "slider",
+            "slider": {
+                "range": [0, 100],
+                "step": 1,
+                "command": "setAlarmVolume",
+                "value": "alarmVolume.value"
+            }
+        }]
+    },
+    "id": "aloneflower52999.echoSpeaksNotifications",
+    "version": 1
+}

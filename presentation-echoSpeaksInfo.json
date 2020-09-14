@@ -1,0 +1,70 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [{
+            "label": "Last Updated",
+            "displayType": "state",
+            "state": {
+                "label": "{{lastUpdated.value}}"
+            }
+        },
+        {
+            "label": "Online Status",
+            "displayType": "state",
+            "state": {
+                "label": "{{onlineStatus.value}}"
+            }
+        },
+        {
+            "label": "Device Family",
+            "displayType": "state",
+            "state": {
+                "label": "{{deviceFamily.value}}"
+            }
+        },
+        {
+            "label": "Device Style",
+            "displayType": "state",
+            "state": {
+                "label": "{{deviceStyle.value}}"
+            }
+        },
+        {
+            "label": "Last Command Date",
+            "displayType": "state",
+            "state": {
+                "label": "{{lastCmdSentDt.value}}"
+            }
+        },
+        {
+            "label": "Device Status",
+            "displayType": "state",
+            "state": {
+                "label": "{{deviceStatus.value}}"
+            }
+        },
+        {
+            "label": "Firmware Version",
+            "displayType": "state",
+            "state": {
+                "label": "{{firmwareVer.value}}"
+            }
+        },
+        {
+            "label": "Supported Music",
+            "displayType": "state",
+            "state": {
+                "label": "{{supportedMusic.value}}"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": []
+    },
+    "id": "aloneflower52999.echoSpeaksInfo",
+    "version": 1
+}

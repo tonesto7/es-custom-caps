@@ -1,0 +1,62 @@
+{
+    "id": "498709ab-f1bc-4fdb-ac19-02aa680cae49",
+    "name": "echo-speaks-device",
+    "components": [{
+        "label": "main",
+        "id": "main",
+        "capabilities": [{
+                "id": "healthCheck",
+                "version": 1
+            },
+            {
+                "id": "mediaPlayback",
+                "version": 1
+            },
+            {
+                "id": "aloneflower52999.echoSpeaksInfo",
+                "version": 1
+            },
+            {
+                "id": "aloneflower52999.echoSpeaksNotifications",
+                "version": 1
+            },
+            {
+                "id": "aloneflower52999.echoSpeaksSettings",
+                "version": 1
+            },
+            {
+                "id": "aloneflower52999.echoSpeaksSpeech1",
+                "version": 1
+            },
+            {
+                "id": "aloneflower52999.echoSpeaksSpeech2",
+                "version": 1
+            },
+            {
+                "id": "audioMute",
+                "version": 1
+            },
+            {
+                "id": "audioVolume",
+                "version": 1
+            }
+        ],
+        "categories": []
+    }],
+    "metadata": {
+        "vid": "2085d934-2629-30bc-9305-74917f7bb739",
+        "deviceType": "Others",
+        "mnmn": "SmartThingsCommunity",
+        "ocfDeviceType": "oic.wk.d",
+        "deviceTypeId": "Others",
+        "ocfSpecVer": "core 1.1.0",
+        "mnid": "fABk",
+        "mnId": "fABk"
+    },
+    "status": "PUBLISHED",
+    "owner": {
+        "ownerType": "USER",
+        "ownerId": "87c21820-daed-4be6-8f5f-8ad10c1cc520"
+    },
+    "restrictions": null
+}

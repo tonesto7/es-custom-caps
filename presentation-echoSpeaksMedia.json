@@ -1,0 +1,14 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [],
+    "automation": {
+        "conditions": [],
+        "actions": []
+    },
+    "id": "aloneflower52999.echoSpeaksMedia",
+    "version": 1
+}

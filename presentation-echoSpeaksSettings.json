@@ -1,0 +1,109 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [{
+            "label": "Do Not Disturb",
+            "displayType": "toggleSwitch",
+            "toggleSwitch": {
+                "command": {
+                    "name": "DoNotDisturb",
+                    "on": "doNotDisturbOn",
+                    "off": "doNotDisturbOff"
+                },
+                "state": {
+                    "value": "doNotDisturb.value",
+                    "on": "true",
+                    "off": "false",
+                    "alternatives": [{
+                            "key": "null",
+                            "value": "No Data",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "true",
+                            "value": "Active",
+                            "type": "active",
+                            "description": "Do Not Disturb Mode Active"
+                        },
+                        {
+                            "key": "false",
+                            "value": "Inactive",
+                            "type": "active",
+                            "description": "Do Not Disturb Mode Inactive"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "Follow Up Mode",
+            "displayType": "state",
+            "state": {
+                "label": "{{followUpMode.value}}",
+                "alternatives": [{
+                        "key": "null",
+                        "value": "No Data",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "true",
+                        "value": "Enabled",
+                        "type": "active",
+                        "description": "Followup Mode Enabled"
+                    },
+                    {
+                        "key": "false",
+                        "value": "Disabled",
+                        "type": "active",
+                        "description": "Followup Mode Disabled"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Bluetooth Device Connected",
+            "displayType": "state",
+            "state": {
+                "label": "{{btDeviceConnected.value}}",
+                "alternatives": [{
+                        "key": "null",
+                        "value": "No Data",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "{{btDeviceConnected.value}}",
+                        "value": "btDeviceConnected.value",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Bluetooth Devices Paired",
+            "displayType": "state",
+            "state": {
+                "label": "{{btDevicePaired.value}}",
+                "alternatives": [{
+                        "key": "null",
+                        "value": "No Data",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "{{btDevicePaired.value}}",
+                        "value": "btDevicePaired.value",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": []
+    },
+    "id": "aloneflower52999.echoSpeaksSettings",
+    "version": 1
+}

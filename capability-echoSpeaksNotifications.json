@@ -1,0 +1,113 @@
+{
+    "id": "aloneflower52999.echoSpeaksNotifications",
+    "version": 1,
+    "status": "proposed",
+    "name": "Echo Speaks Notifications",
+    "attributes": {
+        "alarmVolume": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "number"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setAlarmVolume": {
+            "name": "setAlarmVolume",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": false,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "removeNotification": {
+            "name": "removeNotification",
+            "arguments": [
+                {
+                    "name": "idOrName",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "createReminder": {
+            "name": "createReminder",
+            "arguments": [
+                {
+                    "name": "label",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "date",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "time",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "sendAlexaAppNotification": {
+            "name": "sendAlexaAppNotification",
+            "arguments": [
+                {
+                    "name": "msg",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "createAlarm": {
+            "name": "createAlarm",
+            "arguments": [
+                {
+                    "name": "alarmLbl",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "alarmDate",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "alarmTime",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
+}
