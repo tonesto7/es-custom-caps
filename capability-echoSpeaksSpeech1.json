@@ -9,13 +9,11 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "number"
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
+                "required": ["value"]
             },
             "enumCommands": []
         },
@@ -28,9 +26,7 @@
                     }
                 },
                 "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
+                "required": ["value"]
             },
             "enumCommands": []
         },
@@ -43,9 +39,7 @@
                     }
                 },
                 "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
+                "required": ["value"]
             },
             "enumCommands": []
         },
@@ -58,9 +52,7 @@
                     }
                 },
                 "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
+                "required": ["value"]
             },
             "enumCommands": []
         },
@@ -73,18 +65,35 @@
                     }
                 },
                 "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
+                "required": ["value"]
             },
             "enumCommands": []
         }
     },
     "commands": {
+        "cannedSpeechCmds": {
+            "name": "cannedSpeechCmds",
+            "arguments": [{
+                "name": "cmdName",
+                "optional": false,
+                "schema": {
+                    "type": "string"
+                }
+            }]
+        },
+        "calendarSpeechCmds": {
+            "name": "calendarSpeechCmds",
+            "arguments": [{
+                "name": "cmdName",
+                "optional": false,
+                "schema": {
+                    "type": "string"
+                }
+            }]
+        },
         "playJoke": {
             "name": "playJoke",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -102,8 +111,7 @@
         },
         "playFlashBrief": {
             "name": "playFlashBrief",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -121,8 +129,7 @@
         },
         "playFunFact": {
             "name": "playFunFact",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -140,8 +147,7 @@
         },
         "sayBirthday": {
             "name": "sayBirthday",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -159,8 +165,7 @@
         },
         "playSingASong": {
             "name": "playSingASong",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -178,8 +183,7 @@
         },
         "playTraffic": {
             "name": "playTraffic",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -197,8 +201,7 @@
         },
         "playWeather": {
             "name": "playWeather",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -214,14 +217,10 @@
                 }
             ]
         },
-        "resetQueue": {
-            "name": "resetQueue",
-            "arguments": []
-        },
+
         "sayGoodNight": {
             "name": "sayGoodNight",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -239,8 +238,7 @@
         },
         "sayGoodbye": {
             "name": "sayGoodbye",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -258,8 +256,7 @@
         },
         "playSoundByName": {
             "name": "playSoundByName",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "soundName",
                     "optional": false,
                     "schema": {
@@ -284,8 +281,7 @@
         },
         "playTellStory": {
             "name": "playTellStory",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -303,8 +299,7 @@
         },
         "playGoodNews": {
             "name": "playGoodNews",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -322,8 +317,7 @@
         },
         "sayGoodMorning": {
             "name": "sayGoodMorning",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -339,14 +333,9 @@
                 }
             ]
         },
-        "replayText": {
-            "name": "replayText",
-            "arguments": []
-        },
         "sayCompliment": {
             "name": "sayCompliment",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -364,8 +353,61 @@
         },
         "sayWelcomeHome": {
             "name": "sayWelcomeHome",
-            "arguments": [
+            "arguments": [{
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
                 {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playCalendarToday": {
+            "name": "playCalendarToday",
+            "arguments": [{
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playCalendarNext": {
+            "name": "playCalendarNext",
+            "arguments": [{
+                    "name": "volume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                },
+                {
+                    "name": "restoreVolume",
+                    "optional": true,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "playCalendarTomorrow": {
+            "name": "playCalendarTomorrow",
+            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {

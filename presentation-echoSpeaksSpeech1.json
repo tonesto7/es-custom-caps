@@ -21,122 +21,98 @@
             }
         },
         {
-            "label": "Last Spoken To Time",
+            "label": "Last Spoken To",
             "displayType": "state",
             "state": {
                 "label": "{{lastSpokenToTime.value}}"
             }
         },
         {
-            "label": "Tell a Joke",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "playJoke"
+            "label": "Canned Speech Commands",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "cannedSpeechCmds",
+                    "alternatives": [{
+                            "key": "playJoke",
+                            "value": "Tell a Joke"
+                        },
+                        {
+                            "key": "playFlashBrief",
+                            "value": "Flash Briefing"
+                        },
+                        {
+                            "key": "playFunFact",
+                            "value": "Fun Fact"
+                        },
+                        {
+                            "key": "sayBirthday",
+                            "value": "Sing Happy Birthday"
+                        },
+                        {
+                            "key": "playSingASong",
+                            "value": "Sing-a-Song"
+                        },
+                        {
+                            "key": "playTraffic",
+                            "value": "Traffic Report"
+                        },
+                        {
+                            "key": "playWeather",
+                            "value": "Weather Report"
+                        },
+                        {
+                            "key": "sayGoodNight",
+                            "value": "Say Good Night"
+                        },
+                        {
+                            "key": "sayGoodMorning",
+                            "value": "Say Good Morning"
+                        },
+                        {
+                            "key": "sayGoodbye",
+                            "value": "Say Goodbye"
+                        },
+                        {
+                            "key": "sayCompliment",
+                            "value": "Give a Compliment"
+                        },
+                        {
+                            "key": "sayWelcomeHome",
+                            "value": "Say Welcome Home"
+                        },
+                        {
+                            "key": "playTellStory",
+                            "value": "Tell a Story"
+                        },
+                        {
+                            "key": "playGoodNews",
+                            "value": "Give Me Some Good News"
+                        }
+                    ]
+                }
             }
         },
         {
-            "label": "Flash Briefing",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "playFlashBrief"
-            }
-        },
-        {
-            "label": "Say Fun Fact",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "playFunFact"
-            }
-        },
-        {
-            "label": "Say Happy Birthday",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "sayBirthday"
-            }
-        },
-        {
-            "label": "Sing-a-Song",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "playSingASong"
-            }
-        },
-        {
-            "label": "Play Traffic Report",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "playTraffic"
-            }
-        },
-        {
-            "label": "Play Weather Report",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "playWeather"
-            }
-        },
-        {
-            "label": "Say Good Night",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "sayGoodNight"
-            }
-        },
-        {
-            "label": "Say Good Morning",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "sayGoodMorning"
-            }
-        },
-        {
-            "label": "Say Goodbye",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "sayGoodbye"
-            }
-        },
-        {
-            "label": "Say Compliment",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "sayCompliment"
-            }
-        },
-        {
-            "label": "Say Welcome Home",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "sayWelcomeHome"
-            }
-        },
-        {
-            "label": "Tell a Story",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "playTellStory"
-            }
-        },
-        {
-            "label": "Play Good News",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "playGoodNews"
-            }
-        },
-        {
-            "label": "Replay Last Text",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "replayText"
-            }
-        },
-        {
-            "label": "Reset Speech Queue",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "resetQueue"
+            "label": "Calendar Speech Commands",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "calendarSpeechCmds",
+                    "alternatives": [{
+                            "key": "playCalendarToday",
+                            "value": "Events Today"
+                        },
+                        {
+                            "key": "playCalendarNext",
+                            "value": "Upcoming Events"
+                        },
+                        {
+                            "key": "playCalendarTomorrow",
+                            "value": "Events Tomorrow"
+                        }
+                    ]
+                }
             }
         }
     ],

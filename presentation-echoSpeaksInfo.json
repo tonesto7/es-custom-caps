@@ -31,34 +31,6 @@
             "state": {
                 "label": "{{deviceStyle.value}}"
             }
-        },
-        {
-            "label": "Last Command Date",
-            "displayType": "state",
-            "state": {
-                "label": "{{lastCmdSentDt.value}}"
-            }
-        },
-        {
-            "label": "Device Status",
-            "displayType": "state",
-            "state": {
-                "label": "{{deviceStatus.value}}"
-            }
-        },
-        {
-            "label": "Firmware Version",
-            "displayType": "state",
-            "state": {
-                "label": "{{firmwareVer.value}}"
-            }
-        },
-        {
-            "label": "Supported Music",
-            "displayType": "state",
-            "state": {
-                "label": "{{supportedMusic.value}}"
-            }
         }
     ],
     "automation": {

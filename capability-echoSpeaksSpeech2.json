@@ -5,6 +5,20 @@
     "name": "Echo Speaks Speech 2",
     "attributes": {},
     "commands": {
+        "resetQueue": {
+            "name": "resetQueue",
+            "arguments": []
+        },
+        "speechTestCmds": {
+            "name": "speechTestCmds",
+            "arguments": [{
+                "name": "cmdName",
+                "optional": false,
+                "schema": {
+                    "type": "string"
+                }
+            }]
+        },
         "sendAnnouncementToDevices": {
             "name": "sendAnnouncementToDevices",
             "arguments": [{
@@ -29,60 +43,6 @@
                     }
                 },
                 {
-                    "name": "volume",
-                    "optional": true,
-                    "schema": {
-                        "type": "number"
-                    }
-                },
-                {
-                    "name": "restoreVolume",
-                    "optional": true,
-                    "schema": {
-                        "type": "number"
-                    }
-                }
-            ]
-        },
-        "playCalendarToday": {
-            "name": "playCalendarToday",
-            "arguments": [{
-                    "name": "volume",
-                    "optional": true,
-                    "schema": {
-                        "type": "number"
-                    }
-                },
-                {
-                    "name": "restoreVolume",
-                    "optional": true,
-                    "schema": {
-                        "type": "number"
-                    }
-                }
-            ]
-        },
-        "playCalendarNext": {
-            "name": "playCalendarNext",
-            "arguments": [{
-                    "name": "volume",
-                    "optional": true,
-                    "schema": {
-                        "type": "number"
-                    }
-                },
-                {
-                    "name": "restoreVolume",
-                    "optional": true,
-                    "schema": {
-                        "type": "number"
-                    }
-                }
-            ]
-        },
-        "playCalendarTomorrow": {
-            "name": "playCalendarTomorrow",
-            "arguments": [{
                     "name": "volume",
                     "optional": true,
                     "schema": {
@@ -201,6 +161,10 @@
         },
         "speechTest": {
             "name": "speechTest",
+            "arguments": []
+        },
+        "replayText": {
+            "name": "replayText",
             "arguments": []
         }
     }

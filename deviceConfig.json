@@ -3,10 +3,16 @@
     "iconUrl": null,
     "dashboard": {
         "states": [{
-            "component": "main",
-            "capability": "mediaPlayback",
-            "version": 1
-        }],
+                "component": "main",
+                "capability": "musicPlayer",
+                "version": 1
+            },
+            {
+                "component": "main",
+                "capability": "audioVolume",
+                "version": 1
+            }
+        ],
         "actions": [{
             "component": "main",
             "capability": "mediaPlayback",
@@ -15,7 +21,7 @@
     },
     "detailView": [{
             "component": "main",
-            "capability": "mediaPlayback",
+            "capability": "musicPlayer",
             "version": 1,
             "values": [],
             "patch": []
@@ -61,26 +67,12 @@
             "version": 1,
             "values": [],
             "patch": []
-        },
-        {
-            "component": "main",
-            "capability": "audioMute",
-            "version": 1,
-            "values": [],
-            "patch": []
-        },
-        {
-            "component": "main",
-            "capability": "audioVolume",
-            "version": 1,
-            "values": [],
-            "patch": []
         }
     ],
     "automation": {
         "conditions": [],
         "actions": []
     },
-    "vid": "2085d934-2629-30bc-9305-74917f7bb739",
+    "vid": "0e7030f3-ecbe-361e-99ed-ed9faeb9ccc0",
     "mnmn": "SmartThingsCommunity"
 }

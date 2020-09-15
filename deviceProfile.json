@@ -9,10 +9,6 @@
                 "version": 1
             },
             {
-                "id": "mediaPlayback",
-                "version": 1
-            },
-            {
                 "id": "musicPlayer",
                 "version": 1
             },
@@ -72,14 +68,14 @@
         "categories": []
     }],
     "metadata": {
-        "vid": "2085d934-2629-30bc-9305-74917f7bb739",
+        "vid": "0e7030f3-ecbe-361e-99ed-ed9faeb9ccc0",
         "deviceType": "Others",
         "mnmn": "SmartThingsCommunity",
         "ocfDeviceType": "oic.wk.d",
         "deviceTypeId": "Others",
         "ocfSpecVer": "core 1.1.0",
-        "mnid": "fABk",
-        "mnId": "fABk"
+        "mnid": "SmartThingsCommunity",
+        "mnId": "SmartThingsCommunity"
     },
     "status": "DEVELOPMENT",
     "owner": {

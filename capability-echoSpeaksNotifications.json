@@ -9,13 +9,13 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "number"
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
                     }
                 },
                 "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
+                "required": ["value"]
             },
             "enumCommands": []
         }
@@ -23,32 +23,27 @@
     "commands": {
         "setAlarmVolume": {
             "name": "setAlarmVolume",
-            "arguments": [
-                {
-                    "name": "volume",
-                    "optional": false,
-                    "schema": {
-                        "type": "number"
-                    }
+            "arguments": [{
+                "name": "volume",
+                "optional": false,
+                "schema": {
+                    "type": "number"
                 }
-            ]
+            }]
         },
         "removeNotification": {
             "name": "removeNotification",
-            "arguments": [
-                {
-                    "name": "idOrName",
-                    "optional": false,
-                    "schema": {
-                        "type": "string"
-                    }
+            "arguments": [{
+                "name": "idOrName",
+                "optional": false,
+                "schema": {
+                    "type": "string"
                 }
-            ]
+            }]
         },
         "createReminder": {
             "name": "createReminder",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "label",
                     "optional": false,
                     "schema": {
@@ -73,20 +68,17 @@
         },
         "sendAlexaAppNotification": {
             "name": "sendAlexaAppNotification",
-            "arguments": [
-                {
-                    "name": "msg",
-                    "optional": false,
-                    "schema": {
-                        "type": "string"
-                    }
+            "arguments": [{
+                "name": "msg",
+                "optional": false,
+                "schema": {
+                    "type": "string"
                 }
-            ]
+            }]
         },
         "createAlarm": {
             "name": "createAlarm",
-            "arguments": [
-                {
+            "arguments": [{
                     "name": "alarmLbl",
                     "optional": false,
                     "schema": {

@@ -7,45 +7,39 @@
         "basicPlus": []
     },
     "detailView": [{
-            "label": "Todays Calendar Events",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "playCalendarToday"
+            "label": "Device Test Commands",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "speechTestCmds",
+                    "alternatives": [{
+                            "key": "speechTest",
+                            "value": "Speech Test"
+                        },
+                        {
+                            "key": "sendTestAnnouncement",
+                            "value": "Announcement Test (This Device)"
+                        },
+                        {
+                            "key": "sendTestAnnouncementAll",
+                            "value": "Announcement Test (All Devices)"
+                        }
+                    ]
+                }
             }
         },
         {
-            "label": "Next Calendar Event",
+            "label": "Replay Last Text",
             "displayType": "pushButton",
             "pushButton": {
-                "command": "playCalendarNext"
+                "command": "replayText"
             }
         },
         {
-            "label": "Tomorrows Calendar Events",
+            "label": "Reset Speech Queue",
             "displayType": "pushButton",
             "pushButton": {
-                "command": "playCalendarTomorrow"
-            }
-        },
-        {
-            "label": "Send Announcement Test to Device",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "sendTestAnnouncement"
-            }
-        },
-        {
-            "label": "Send Announcement Test to All Devices",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "sendTestAnnouncementAll"
-            }
-        },
-        {
-            "label": "Perform a Speech Test",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "speechTest"
+                "command": "resetQueue"
             }
         }
     ],

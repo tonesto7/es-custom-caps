@@ -6,8 +6,8 @@
     },
     "detailView": [{
             "label": "Do Not Disturb",
-            "displayType": "toggleSwitch",
-            "toggleSwitch": {
+            "displayType": "standbyPowerSwitch",
+            "standbyPowerSwitch": {
                 "command": {
                     "name": "DoNotDisturb",
                     "on": "doNotDisturbOn",
@@ -24,79 +24,34 @@
                         },
                         {
                             "key": "true",
-                            "value": "Active",
+                            "value": "On",
                             "type": "active",
-                            "description": "Do Not Disturb Mode Active"
+                            "description": "Do Not Disturb - On",
+                            "iconUrl": "https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/icons/device/dnd_on.png"
                         },
                         {
                             "key": "false",
-                            "value": "Inactive",
-                            "type": "active",
-                            "description": "Do Not Disturb Mode Inactive"
+                            "value": "Off",
+                            "type": "inactive",
+                            "description": "Do Not Disturb Mode - Off",
+                            "iconUrl": "https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/icons/device/dnd_off.png"
                         }
                     ]
                 }
             }
         },
         {
-            "label": "Follow Up Mode",
-            "displayType": "state",
-            "state": {
-                "label": "{{followUpMode.value}}",
-                "alternatives": [{
-                        "key": "null",
-                        "value": "No Data",
-                        "type": "inactive"
-                    },
-                    {
-                        "key": "true",
-                        "value": "Enabled",
-                        "type": "active",
-                        "description": "Followup Mode Enabled"
-                    },
-                    {
-                        "key": "false",
-                        "value": "Disabled",
-                        "type": "active",
-                        "description": "Followup Mode Disabled"
-                    }
-                ]
-            }
-        },
-        {
             "label": "Bluetooth Device Connected",
             "displayType": "state",
             "state": {
-                "label": "{{btDeviceConnected.value}}",
-                "alternatives": [{
-                        "key": "null",
-                        "value": "No Data",
-                        "type": "inactive"
-                    },
-                    {
-                        "key": "{{btDeviceConnected.value}}",
-                        "value": "btDeviceConnected.value",
-                        "type": "active"
-                    }
-                ]
+                "label": "{{btDeviceConnected.value}}"
             }
         },
         {
             "label": "Bluetooth Devices Paired",
             "displayType": "state",
             "state": {
-                "label": "{{btDevicePaired.value}}",
-                "alternatives": [{
-                        "key": "null",
-                        "value": "No Data",
-                        "type": "inactive"
-                    },
-                    {
-                        "key": "{{btDevicePaired.value}}",
-                        "value": "btDevicePaired.value",
-                        "type": "active"
-                    }
-                ]
+                "label": "{{btDevicePaired.value}}"
             }
         }
     ],

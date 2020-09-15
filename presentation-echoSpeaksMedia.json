@@ -4,7 +4,13 @@
         "actions": [],
         "basicPlus": []
     },
-    "detailView": [],
+    "detailView": [{
+        "label": "Media Source",
+        "displayType": "state",
+        "state": {
+            "label": "{{mediaSource.value}}"
+        }
+    }],
     "automation": {
         "conditions": [],
         "actions": []
